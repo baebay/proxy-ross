@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ubuntu',
-      host: 'seabay.rosscalimlim.me',
+      host: '3.19.49.181',
       key: '~/.ssh/seabay.pem',
       ref: 'origin/master',
       repo: 'git@github.com:baebay/proxy-ross.git',
