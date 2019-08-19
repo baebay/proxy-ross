@@ -6,7 +6,7 @@ module.exports = {
   deploy: {
     production: {
       user: 'ross',
-      host: '134.209.69.8',
+      host: '134.209.69.8:~/',
       key: '~/.ssh/rosscalimlim.me',
       ref: 'origin/master',
       repo: 'git@github.com:baebay/proxy-ross.git',
