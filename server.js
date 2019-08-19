@@ -7,8 +7,8 @@ const port = process.env.SERVER_PORT;
 
 app.use(cors());
 app.use(compression());
-app.use('/', express.static('public'));
-app.use('/projects/seabay/app', express.static('scripts'));
+app.use('/projects/seabay/app', express.static('public'));
+app.use('/scripts', express.static('scripts'));
 app.use(express.json());
 
 app.listen(port, () => console.log(`Listening on ${port}`));
