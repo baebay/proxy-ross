@@ -7,7 +7,7 @@ module.exports = {
     production: {
       user: 'ross',
       host: '134.209.69.8',
-      key: '~/.ssh/rosscalimlim.pem',
+      key: '~/.ssh/rosscalimlim.me',
       ref: 'origin/master',
       repo: 'git@github.com:baebay/proxy-ross.git',
       path: '/home/ubuntu/server/proxy',
