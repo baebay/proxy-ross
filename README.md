@@ -28,26 +28,18 @@ We used a number of different technologies as we developed separate services tha
 <img src="https://markmcgookin.files.wordpress.com/2017/07/mocha5.png?w=499" width="190" />
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/AWS_Simple_Icons_AWS_Cloud.svg/2000px-AWS_Simple_Icons_AWS_Cloud.svg.png" width="140" />
 <img src="https://cdn.slant.co/9c445354-9f20-438e-9cb7-ab1834fbc771/-/format/jpeg/-/progressive/yes/-/preview/480x480/" width="150" />
-<img src="" width="100" />
-<img src="" width="100" />
 
 
 ### Technical Challenges / Research
 
 - The greatest technical challenge we faced was finding a reliable way for our services to communicate with each other while maintaining loose coupling between them. After a good deal of research, we settled on an event listener approach. We collectively agreed on certain events that would emit well-defined types of data that each component could consume from the document object.
 
-
-## Client Deliverables
-
--
-
 ### Minimum Viable Product (MVP)
-
 -
 
 ### How the App Works
-<img src="./readme/quickflix-search.gif" width="300" />
-<img src="./readme/quickflix-movie-search.gif" width="200" />
+#### Cart
+<img src="./readme/cart.gif" width="500" />
 
 ### Workflow
 
